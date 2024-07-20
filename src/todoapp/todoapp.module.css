@@ -1,0 +1,52 @@
+body{
+    background-image: url("./src/image/back.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 400px;
+    box-shadow: 0 0 15px red;
+    border-radius: 10px;   
+}
+.h1{
+    color: red;
+    font-style: italic;
+}
+.input{
+    border-style: hidden;
+    background-color: rgb(246, 144, 144);
+    padding: 8px;
+    color: black;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.add{
+color: red;
+background-color: rgb(246, 144, 144);
+border-radius: 10px;
+font-size: 20px;
+
+border-style: hidden;
+}
+.add:hover{
+    background-color: red;
+    color: white;
+}
+.dlt{
+color: red;
+position:absolute;
+top: 335px;
+border-style: hidden;
+background-color: rgb(246, 144, 144);
+right: 440px;
+padding: 5px;
+border-radius: 10px;
+}
+.dlt:hover{
+    color: white;
+    background-color: red;
+}
+.li{
+    color: red;
+}
